@@ -1,0 +1,163 @@
+
+#######################
+Day 2 : 13th July 2025
+#######################
+
+	- IAM Service :::
+	
+		- User Authentication
+			- Defines Who can access the System/Service
+		
+		- User Authorization 
+			- What action the User can perform on that System/Service 
+			
+			
+	- IAM 	- Identity(Authentication)
+			- Access(Authorization)
+			- Management
+			
+			
+	-> Terminologies Used to manage the Users' Access ?
+	
+		User_Name 
+		Credentials :
+			- Password				AWS Console!
+			
+			- Access Token/Secrets
+			
+			- Secure Keys
+				- Public/Private Keys
+			
+			- Passwordless****
+			
+	-> RBAC - Role Based Access Control 
+	
+		-> Developers' Group 		==> Read access to a file.
+			- user1 
+			
+		-> Admin Group 				==> Manage(Read/Write/Delete) the File
+			- user1 
+			- user2 
+
+
+
+	- Create IAM User :
+	
+	- IAM Group 
+	
+	- Policies / Permission 
+	
+	- IAM Roles 
+	
+	- Manage IAM Users 
+	
+	
+	
+	- Install Visual Studio Code - IDE in local Machine		*******
+	
+		- Install JSON Extension / AWS Related Extensions.
+
+
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "Statement1",
+			"Effect": "Allow",
+			"Action": [],
+			"Resource": []
+		}
+	]
+}
+
+	Add Policies to the Users :
+	
+		- Through User Group 
+		
+		- Inline Policy 
+		
+	- Credential Reports :::
+	
+	- IAM Roles :::
+	
+	AKIAZzcvzxcvzxcvxcvY
+	
+	yPbdfxdfvxzcvHyZ0fev
+	
+
+	Various Modes of Accessing AWS :
+	
+		- AWS Console (Web browser)
+	
+		- AWS CLI 
+		
+		- AWS SDK 
+		
+		- Cloud Shell (Through Web Browser)
+			
+			- aws --version					# AWS Cli Command
+			
+			Use AWS Access Key and Secret Key.
+			
+			aws configure 
+			
+				C:\Users\Admin>aws configure
+				AWS Access Key ID [****************XDWV]: ASDFfSDFASDFASDFDFASDF**FAWEFACY
+				AWS Secret Access Key [****************KI5T]: yASDCASWE***DADSASDFSDAFDFSDFASDFSDFSDFv
+				Default region name [ap-south-1]:
+				Default output format [None]:
+			
+			aws iam get-user 
+			
+			aws iam get-user --user-name <devopsadmin1>
+			
+			
+			
+			
+	
+	Access AWS Resources using AWS Cli Commands:
+	
+		https://docs.aws.amazon.com/cli/v1/userguide/welcome-examples.html
+	
+		- Install AWS Client in the Local Machine(Windows/Mac/Linux).
+				https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+		
+		https://docs.aws.amazon.com/cli/v1/userguide/cli_iam_code_examples.html
+		
+		
+				
+		- Login to AWS Console as an IAM User 
+		
+		- Create Access & Secret Key 
+		
+		- Open Command Prompt 
+		
+			- aws --version 
+			
+			- aws configure 
+	
+			- aws iam get-user
+			
+				Exception :
+				An error occurred (AccessDenied) when calling the GetUser operation: User: arn:aws:iam::682033467551:user/testuser1 is not authorized to perform: iam:GetUser on resource: user testuser1 because no identity-based policy allows the iam:GetUser action
+				
+			- aws iam add-user-to-group --user-name testuser1 --group-name sagrp1
+			
+
+	
+	
+	- EC2 Service :::
+	
+		EC2 - Elastic Compute Cloud Instance ==> Virtual Machine 
+		
+		Core Objective!
+		
+			#!/bin/bash
+			yum update -y
+			yum install -y httpd
+			systemctl start httpd
+			systemctl enable httpd
+			echo "<h1>Hello, World!</h1>" > /var/www/html/index.html		
+		
+		
+	
