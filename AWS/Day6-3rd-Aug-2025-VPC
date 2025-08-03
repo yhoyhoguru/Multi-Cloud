@@ -1,0 +1,59 @@
+VPC	- Virtual Private Cloud!
+			
+		- Networking 
+		- Security	
+	
+	- VPC Private Connectivity Options :
+	
+		- VPC Peering!
+
+	- Best Practises 
+	
+	- Design a Cost effective VPC Network
+	
+	- Troubleshooting process and Handling Erros and Logs
+	
+	- VPC Level Security 
+	
+	- Lab Practises	- using AWS Console! 
+	
+	- AWS CLi & IAC Tools like Cloud Formation & Terraform 
+	
+		- AWS Cloud Watch -> AWS Services 
+		
+			- Dynatrace 
+			- Prometheus 
+			- Grafana 
+	
+	
+SA-VPC-A		10.100.0.0/16
+
+SA-VPC-A-IGW
+
+SA-VPC-A-SN-Public	10.100.0.0/24
+
+SA-VPC-A-Public-RT
+
+SA-EC2-A
+
+
+
+SA-VPC-A-SN-Private
+
+SA-VPC-A-Private-RT
+
+SA-EC2-B
+
+
+
+Provisioning Infra-Struture using AWS Cli / IAC Tools :
+
+
+	- AWS Cli 
+	
+	- IAC Tools 
+	
+		- Cloud Formation 
+		
+		- Terraform 
+	
