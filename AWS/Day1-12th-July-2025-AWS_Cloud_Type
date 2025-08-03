@@ -1,0 +1,83 @@
+Start Date : 12th July 2025
+
+Module 1 : AWS Cloud Platform :
+
+#######################
+Day 1 : 12th July 2025
+#######################
+
+	- Introduction to Cloud!
+	
+	- AWS Cloud Platform Services :
+	
+	- Access AWS Cloud :
+	
+	- AWS Operations :
+	
+		- Region 
+		
+		- Computing Environments 
+		
+		- IAM 
+		
+		- User and Resources 
+		
+		
+	https://aws.amazon.com/certification/?ams%23interactive-card-vertical%23pattern-data.filter=%257B%2522filters%2522%253A%255B%255D%257D
+	
+	https://d1.awsstatic.com/training-and-certification/docs/AWS_certification_paths.pdf
+	
+	
+	Access AWS Cloud ! 
+	
+		- Create AWS Free Tier Account !		# https://aws.amazon.com/console/
+		
+			==> Active Email_ID 
+			==> Active Mobile Number 
+			==> Active Credit/Debit Card - Enabled with International Transactions 
+			
+	Upon Creating an Account :
+
+	Login to AWS Console:
+	
+		- Email_ID 			# AWS root user ID.
+		
+		- Login as a root user.
+	
+			- EMail_ID 
+			- Password 
+			
+		- Create MFA - Multi-Factor Authentication 
+		
+			- Use Mobile Number with Google Authenticator App.
+			
+				- Soft Token to Authenticate. 
+	
+	Set the Region 
+	
+	Explore : AWS Services 
+	
+	Billing Dashboard! 
+	
+		- Just Terminate the Resources if it is no longer required.
+		
+		- Just Stop the Resources if it not in use.
+		
+		Virtual Machine --> EC2 Instance :
+		
+			1 VM -> 750 Hrs/Month			# For Free Tier Account 
+			
+			10 VMs -> 75 Hrs/Month 		
+			
+		Monitor the AWS Free Tier Resource Usage & Billing :
+		
+		AWS Billing Dashboard 
+		
+			- To Monitory AWS Resource Utilization and Payments.
+			
+			
+Next :
+
+	- IAM Service 
+	
+	- EC2 Service
